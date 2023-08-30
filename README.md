@@ -5,6 +5,7 @@ This is a 4-bit ALU designed on LT Spice by using CMOS transistors. It has the o
 Operations of the ALU are selected by the selection inputs, which drive the 4x16 decoder and trigger the 4-bit operations. The truth Table for functional selections is given below
 
 **A B C D     -       Operation**
+
 0 0 0 0      -       XOR
 
 0 0 0 1      -       XNOR 
