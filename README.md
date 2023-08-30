@@ -1,8 +1,8 @@
-#4 Bit ALU
-Aithematic logic unit design implemented using cmos transistors
+# 4 Bit ALU
+Arithmetic logic unit design implemented using CMOS transistors 
 
-This a 4Bit ALU designed on LT Spice by using CMOS transistors. It has the operations of XOR, XNOR, Addition, Subtraction, Multiplication, Leftshift, Arithmetic leftshift, Arithmetic rightshift, Circular leftshift and right shift, 4 bit magnitude comparator and Equality comparator. 
-Operations of the ALU are selected by the slection inputs, which drives the 4x16 decoder and triggers the 4bit operaions. Truth Table for functional selections are given below
+This is a 4-bit ALU designed on LT Spice by using CMOS transistors. It has the operations of XOR, XNOR, Addition, Subtraction, Multiplication, Leftshift, Arithmetic left-shift, Arithmetic right-shift, Circular left-shift and right shift, 4-bit magnitude comparator and Equality comparator. 
+Operations of the ALU are selected by the selection inputs, which drive the 4x16 decoder and trigger the 4-bit operations. The truth Table for functional selections is given below
 
 A B C D      -       Operation
 0 0 0 0      -       XOR
@@ -13,10 +13,10 @@ A B C D      -       Operation
 0 1 0 1      -       Arithmetic Shift left
 0 1 1 0      -       Rotate Shift Right
 0 1 1 1      -       Rotate Shift Left
-1 0 0 0      -       Logical lShift Left
-1 0 0 1      -       Arithematic Right Shift
+1 0 0 0      -       Logical shift Left
+1 0 0 1      -       Arithmetic Right Shift
 1 0 1 0      -       Magnitude Comparator
 1 0 1 1      -       Equality Comparator
 
-All the 4 bit Operation Outputs are drived by the 16x1 Multiplexers and gives the final output.
+All the 4-bit Operation Outputs are driven by the 16x1 Multiplexers and give the final output.
 
